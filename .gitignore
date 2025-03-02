@@ -1,0 +1,127 @@
+# Python Machine Learning .gitignore for TensorFlow and MediaPipe projects
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+venv_py310/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+.python-version
+
+# TensorFlow specific
+checkpoint
+*.ckpt
+*.ckpt.*
+*.pb
+*.pbtxt
+*.meta
+saved_model/
+saved_model.pb
+*.data-*
+*.index
+events.out.tfevents.*
+.ipynb_checkpoints/
+graph_def/
+*.hdf5
+*.h5
+*.tflite
+tfhub_modules/
+
+# MediaPipe specific
+.mediapipe/
+mediapipe/
+
+# Data files
+*.csv
+*.tsv
+*.db
+*.sqlite
+*.sqlite3
+*.json
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mp4
+*.avi
+*.mov
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.gif
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+images/
+videos/
+!requirements.txt  # Don't ignore requirements.txt
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.Trash/
+Thumbs.db
+*.sublime*
+.project
+.pydevproject
+.settings/
+.classpath
+.factorypath
+*.code-workspace
+
+# Logs and local configurations
+logs/
+*.log
+local_settings.py
+*.local.*
+config.local.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
